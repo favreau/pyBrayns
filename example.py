@@ -21,10 +21,10 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 # All rights reserved. Do not distribute without further notice.
 
-from pyBrayns.pybrayns import PyBrayns, FovCamera, Material
+import pybrayns
 
-# Initialize PyBrayns with brayns url
-brayns = PyBrayns('http://localhost:5000')
+# Initialize pybrayns with brayns url
+brayns = pybrayns.PyBrayns('http://localhost:5000')
 
 # Activate no shading shader
 brayns.set_shader(brayns.SHADER_DIFFUSE)
@@ -37,12 +37,12 @@ brayns.set_shadows(True)
 brayns.set_soft_shadows(True)
 
 # Define and set camera defined by origin, look-at, up vector, aperture and focal length
-fov_camera = FovCamera(
+fov_camera = pybrayns.FovCamera(
     [0, 0, -3], [0, 0, 0], [0, 1, 0], 0, 0)
 brayns.set_fov_camera(fov_camera)
 
 # White material
-material = Material(
+material = pybrayns.Material(
     0, [1, 1, 1], [1, 1, 1], 100, 1, 0, 0, 0)
 brayns.set_material(material)
 
@@ -59,5 +59,5 @@ brayns.set_samples_per_pixel(64)
 brayns.set_image_jpeg_size(512, 512)
 brayns.set_image_jpeg_quality(100)
 image = brayns.get_image_jpeg()
-if image is not None:
+if image != None:
     image.save('images/example.jpg')

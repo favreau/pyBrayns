@@ -1,0 +1,9 @@
+setup.py
+pyBrayns/__init__.py
+pyBrayns/pybrayns.py
+pyBrayns/version.py
+pyBrayns.egg-info/PKG-INFO
+pyBrayns.egg-info/SOURCES.txt
+pyBrayns.egg-info/dependency_links.txt
+pyBrayns.egg-info/requires.txt
+pyBrayns.egg-info/top_level.txt
