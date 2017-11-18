@@ -1,11 +1,20 @@
-# pyBrayns
-A python client to interact with Brayns through its http REST interface
+# Brayns for python
+A non-exhaustive python example that illustrates how to interact with Brayns through its HTTP REST
+interface
 
 ## Installation
 
 ```
-alias python=python3
 virtualenv -p python3 env
 . ./env/bin/activate
-pip3 install -r requirements.txt
+pip install -r requirements.txt
+python setup install
 ```
+
+## Example
+
+```
+python examples/script_example.py
+```
+
+![example](images/example.jpg)

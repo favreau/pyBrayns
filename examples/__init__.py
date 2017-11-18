@@ -4,8 +4,8 @@
 # Copyright (c) 2016, Blue Brain Project
 #                     Cyrille Favreau <cyrille.favreau@epfl.ch>
 #
-# This file is part of pyBrayns
-# <https://github.com/BlueBrain/pyBrayns>
+# This file is part of Brayns
+# <https://github.com/BlueBrain/Brayns>
 #
 # This library is free software; you can redistribute it and/or modify it under
 # the terms of the GNU Lesser General Public License version 3.0 as published

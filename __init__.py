@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (c) 2016, Blue Brain Project
-#                     Cyrille Favreau <cyrille.favreau@epfl.ch>
+# Copyright (c) 2016-2017, Blue Brain Project
+#                          Cyrille Favreau <cyrille.favreau@epfl.ch>
 #
-# This file is part of pyBrayns
-# <https://github.com/BlueBrain/pyBrayns>
+# This file is part of Brayns
+# <https://github.com/BlueBrain/Brayns>
 #
 # This library is free software; you can redistribute it and/or modify it under
 # the terms of the GNU Lesser General Public License version 3.0 as published
@@ -21,4 +21,4 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 # All rights reserved. Do not distribute without further notice.
 
-''' pyBrayns '''
+''' Brayns '''
